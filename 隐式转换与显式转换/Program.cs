@@ -23,6 +23,14 @@
             int b1 = 10;
             long b2 = b1;
             b1 = (int)b2; // 与上面的隐式转换的不同点，我将long显式转换为int，那么就可以将这个值赋值给b1.但有个隐患则是，大数据类型强行变为小数据类型，那么就可能导致数据精度丢失，例如超过了int的21亿，那么就会导致异常。
+
+            //parse法 将字符串转换为对应的数据类型
+            string str1 = "123";
+            int c1 = int.Parse(str1);//将字符串123转化为int 123.
+            Console.WriteLine(c1 + 5);//123+5=128
+            str1 = "true";
+            bool c2 = bool.Parse(str1);
+            Console.WriteLine(c2);//输出true
             #endregion
         }
     }
