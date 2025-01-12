@@ -6,7 +6,9 @@ namespace Csharp
     {
         static void Main(string[] args)
         {
+            #region 欢迎来到c#世界
             System.Console.WriteLine("Hello, World!");
+            #endregion
         }
     }
 }
