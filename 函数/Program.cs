@@ -87,6 +87,30 @@
             return sum;
         }
         #endregion
+
+        #region 函数重载
+        //函数名相同  但 参数数量不同，或是参数类型不相同
+        //作用 ： 减少函数名数量，避免namespace的污染
+        //提升程序可读性
+
+        //与c++一致，不写了
+        #endregion
+
+        #region 递归函数
+        //与c++一致
+        //递归函数就是自己调自己
+        static void Fun(int a)
+        {
+            if (a > 10)//判断
+            {
+                return;
+            }
+            Console.WriteLine(a);//输出a的值
+            ++a;//自增1
+            Fun(a);  //重点  自己调自己 相当于重新回到函数起点再次执行该函数
+        }
+        
+        #endregion
         static void Main(string[] args)
         {
             Console.WriteLine("函数");
@@ -126,6 +150,10 @@
                                                     
             // 存在params关键字 调用方法时，可以这样做：
             int result = Sum1(1, 2, 3); // 不需要显式创建数组
+            #endregion
+
+            #region 递归函数代码示例
+            Fun(5);
             #endregion
         }
     }
