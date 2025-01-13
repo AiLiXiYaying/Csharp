@@ -55,7 +55,51 @@
 
             #endregion
 
+            #region 条件运算符
 
+            #region > 与 >=
+            //判断，然后返回一个bool值
+            bool a11 = 5 > 3;
+            #endregion
+
+            #region < 与 <=
+            //同理
+            #endregion
+
+            #region ==
+            //同理 ==为数学中的=号，相等时返回true，不相等时返回false。
+            #endregion
+
+            #region !=
+            //同理 意思为 不等于
+            #endregion
+
+            #endregion
+
+            #region 逻辑运算符
+            //与(&&)或(||)非(!)
+
+            #region 与 &&
+            //双方返回值都为真才为真(true),一方为假，则为假
+            bool a44 = 5>3 && 3>1;
+            #endregion
+
+            #region 或 ||
+            //一方为真则为真
+            bool a55 = 5 > 3 && 3 > 1;
+            #endregion
+
+            #region 非 ！
+            //对最后结果取反，如果最后的结果为真，取反为假。如果最后的结果为假，则取反为真
+            bool a33 = !(53 > 1); // ！（true）    // false
+            #endregion
+
+            #endregion
+
+            #region 三目运算符
+            string b11 = 5>3 ? "true时返回" : "false时返回";
+            //先通过5>3计算出bool值，通过计算出的bool值，选择性执行?号右侧的语句。为true时返回:左侧的东西，为false时返回:右侧的东西。
+            #endregion
         }
     }
 }

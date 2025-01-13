@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "基础数据类型", "基�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "隐式转换与显式转换", "隐式转换与显式转换\隐式转换与显式转换.csproj", "{84238B98-7803-4CDD-AF35-14770F8DCE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "异常捕获", "异常捕获\异常捕获.csproj", "{F424FA79-385B-4859-9DFF-7C267E294F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "异常捕获", "异常捕获\异常捕获.csproj", "{F424FA79-385B-4859-9DFF-7C267E294F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "运算符", "运算符\运算符.csproj", "{1B734E2D-11D2-4792-AE62-AE49B5B9DAB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "运算符", "运算符\运算符.csproj", "{1B734E2D-11D2-4792-AE62-AE49B5B9DAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "基本语句", "基本语句\基本语句.csproj", "{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1B734E2D-11D2-4792-AE62-AE49B5B9DAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B734E2D-11D2-4792-AE62-AE49B5B9DAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B734E2D-11D2-4792-AE62-AE49B5B9DAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
