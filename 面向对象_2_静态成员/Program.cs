@@ -1,4 +1,6 @@
-﻿namespace 面向对象_2_静态成员
+﻿using System.Runtime.CompilerServices;
+
+namespace 面向对象_2_静态成员
 {
 
     #region 知识点一 : 静态成员基本概念
@@ -36,9 +38,45 @@
     }
 
     //常量是特殊的static     static不需要立马初始化，而const则必须初始化
+    //const只能修饰变量，而static可以修饰很多
     #endregion
-    
-    internal class Program
+
+    #region 知识点二 ： 静态类
+    //静态类不能被实例化
+    //静态类内 只能由静态成员
+
+    //作用：将常用的静态成员写在静态类中 方便使用
+    //不能被实例化 体现工具类的 唯一性
+
+    static class Person2
+    {
+        static public int age;
+        static public void Speak2()
+        {
+
+        }
+        static public int Test
+        {
+            get;
+            set;
+        }
+
+        #region 静态构造函数
+        //静态类和普通类都可以有静态构造函数
+        //不能使用访问修饰符
+        //不能有参数
+        //只会自动调用一次
+        static Person2()
+        {
+            Console.WriteLine("静态构造函数");
+            age = 18;
+        }
+        #endregion
+
+        #endregion
+    }
+
+        internal class Program
     {
         static void Main(string[] args)
         {
@@ -47,6 +85,13 @@
             Person.age = 18; //直接使用类名.出使用
             Person.Speak();//直接使用类名.出使用
             Console.WriteLine(Person.age);
+            #endregion
+
+            #region 知识点二: 静态类 示例代码
+            //静态构造函数
+            Console.WriteLine(Person2.age);
+            Console.WriteLine(Person2.age);
+            Console.WriteLine(Person2.age);
             #endregion
         }
     }
