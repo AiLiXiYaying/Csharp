@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "异常捕获", "异常捕�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "运算符", "运算符\运算符.csproj", "{1B734E2D-11D2-4792-AE62-AE49B5B9DAB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "基本语句", "基本语句\基本语句.csproj", "{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "基本语句", "基本语句\基本语句.csproj", "{75285BE4-C56C-4E0F-8F9E-C2B09C752CB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复杂数据类型", "复杂数据类型\复杂数据类型.csproj", "{4142000A-20BF-4342-9BB3-B4AFACA902B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "复杂数据类型", "复杂数据类型\复杂数据类型.csproj", "{4142000A-20BF-4342-9BB3-B4AFACA902B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函数", "函数\函数.csproj", "{95874199-ECB1-48D9-B933-EA4739D8F719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "函数", "函数\函数.csproj", "{95874199-ECB1-48D9-B933-EA4739D8F719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "结构体", "结构体\结构体.csproj", "{2C193F0E-60F9-4101-80AD-AA3FDDBF48C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "结构体", "结构体\结构体.csproj", "{2C193F0E-60F9-4101-80AD-AA3FDDBF48C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "面向对象", "面向对象\面向对象.csproj", "{57796661-F095-4C10-9047-FB24F4CE6709}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{2C193F0E-60F9-4101-80AD-AA3FDDBF48C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C193F0E-60F9-4101-80AD-AA3FDDBF48C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C193F0E-60F9-4101-80AD-AA3FDDBF48C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57796661-F095-4C10-9047-FB24F4CE6709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57796661-F095-4C10-9047-FB24F4CE6709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57796661-F095-4C10-9047-FB24F4CE6709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57796661-F095-4C10-9047-FB24F4CE6709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
