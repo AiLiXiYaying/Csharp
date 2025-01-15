@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "万物之父中的方法", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "委托", "委托\委托.csproj", "{9E53578D-3DED-4CA3-9F04-BFE07C85167B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "事件", "事件\事件.csproj", "{B8FF343B-1657-404B-938A-2244466BBC21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{9E53578D-3DED-4CA3-9F04-BFE07C85167B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E53578D-3DED-4CA3-9F04-BFE07C85167B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E53578D-3DED-4CA3-9F04-BFE07C85167B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FF343B-1657-404B-938A-2244466BBC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FF343B-1657-404B-938A-2244466BBC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FF343B-1657-404B-938A-2244466BBC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FF343B-1657-404B-938A-2244466BBC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
