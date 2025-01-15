@@ -76,7 +76,21 @@ namespace 面向对象_2_静态成员
         #endregion
     }
 
-        internal class Program
+    static class Person3
+    {
+        public static int age;
+        #region 拓展方法
+        //语法
+        //访问修饰符 static 返回值 函数名(this 扩展名 参数名，参数类型 参数名 ...)
+        public static void Test1(this int A, int a) //调用该方法时，只需要写一个参数a即可，前面的this，是表示为谁添加新方法
+        {
+            Console.WriteLine("哇，是{0}", a);
+        }
+        //注意：当类内有同名函数时，会调用同名函数，而不是扩展方法
+        #endregion
+    }
+
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -89,10 +103,22 @@ namespace 面向对象_2_静态成员
 
             #region 知识点二: 静态类 示例代码
             //静态构造函数
+            //只调用一次静态构造函数
             Console.WriteLine(Person2.age);
             Console.WriteLine(Person2.age);
             Console.WriteLine(Person2.age);
             #endregion
+
+            #region 拓展方法示例代码
+            int i = 0;
+            i.Test1(5);
+
+            //提升程序拓展性
+            //不需要再在对象中添加新方法
+            //不需要继承来添加方法
+            //为别人封装的类型额外写方法
+            #endregion
+
         }
     }
 }
